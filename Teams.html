@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>#Being_Technical</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
-}
-</style>
+  <title>#Being_Technical</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    body {
+      font-family: "Times New Roman", Georgia, Serif;
+      }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+  </style>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -29,7 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
+
+  <!--Top Bar-->
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
@@ -41,9 +46,11 @@ h1, h2, h3, h4, h5, h6 {
         <a href="https://www.facebook.com/society.ozone/" class="facebook"><i class="icofont-facebook"></i></a>
         <a href="https://www.instagram.com/society.ozone?r=nametag" class="instagram"><i class="icofont-instagram"></i></a>
         <a href="https://www.linkedin.com/company/the-ozone-society-tit-s-bhiwani" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+        <a href="https://www.youtube.com/channel/UCtva5ZDIFyNcMklyOGiVssg" class="youtube"><i class="icofont-youtube"></i></a>
       </div>
     </div>
   </div>
+  <!--End Top Bar-->
 
  
 
@@ -55,9 +62,9 @@ h1, h2, h3, h4, h5, h6 {
         <div class="d-flex justify-content-between align-items-center">
           <h2>Team Details</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" style="text-decoration: none;">Home</a></li>
          
-            <li>Team Details</li>
+            <li><a href="#" style="text-decoration: none;">Team Details</a></li>
           </ol>
         </div>
 
@@ -67,10 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 </br>
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home"> 
- <img class="w3-image" src="assets/img/team/8e90fb9d-0c47-4a8b-b55f-fc66882a5384.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <img class="w3-image" src="https://theozonesociety.s3.ap-south-1.amazonaws.com/Team+Page/8e90fb9d-0c47-4a8b-b55f-fc66882a5384.jpg" alt="OZONE | Group Image" width="1600" height="800">
 
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-  </div>
+  
 </header>
 
 <!-- Page content -->
@@ -79,12 +85,14 @@ h1, h2, h3, h4, h5, h6 {
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="assets/img/team/e5838ccb-8afb-48fe-b264-1e243e96a3b0.jpg" class="w3-round w3-image w3-opacity-min" alt="The Ozone Society" width="600" height="750">
+     <img src="https://theozonesociety.s3.ap-south-1.amazonaws.com/Team+Page/e5838ccb-8afb-48fe-b264-1e243e96a3b0.jpg" class="w3-round w3-image w3-opacity-min" alt="The Ozone Society" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Team</h1><br>
-      <p class="w3-large">The society smoothly functions by following hierarchal structure in its working. The society is broadly divided into the following domains.</p>
+        <h1 class="w3-center">About Team</h1><br>
+        <p class="w3-large" style="text-align: justify;">
+        The Ozone Family focuses on the overall growth of its every individual both socially and professionally. The Ozone society smoothly functions by following hierarchal structure in its working. The society is broadly divided into the following domains.
+        </p>
     </div>
   </div>
   
@@ -93,30 +101,134 @@ h1, h2, h3, h4, h5, h6 {
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Team</h1><br>
-      <h4>Accounts Team</h4>
-    </br>
-      <h4>Cultural Team</h4>
-    </br>
-    
-      <h4>Code of the day Team</h4>
-</br>
-      <h4>Drive & Mail Team</h4>
-     </br>
+      
+     <ul type="none">
+       <li>
+         <details>
+           <summary>
+             <b style="font-size: large;">
+               Accounts Team
+             </b>
+           </summary>
+           <p style="text-align: justify;">
+            Successfully being managed by <b>Mr. Chirag Jain, Coordinator The Ozone Society</b>, this team maintains a balance and account of all the official paper work and transactions of the society both internally and externaly.
+           </p>
+         </details>
+       </li>
+      <br>
 
+       <li>
+        <details>
+          <summary>
+            <b style="font-size: large;">
+              Alumni Management Team
+            </b>
+          </summary>
+          <p style="text-align: justify;">
+            Successfully being managed by <b>Mr. Nishu, Coordinator The Ozone Society</b>, this team 
+          </p>
+        </details>
+      </li>
+      <br>
 
-      <h4>External Affairs Team</h4>
-      </br>
+      <li>
+        <details>
+          <summary>
+            <b style="font-size: large;">
+              Code of The Day Team
+            </b>
+          </summary>
+          <p style="text-align: justify;">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </details>
+      </li>
+      <br>
 
+      <li>
+        <details>
+          <summary>
+            <b style="font-size: large;">
+              Drive & Database Management Team
+            </b>
+          </summary>
+          <p style="text-align: justify;">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </details>
+      </li>
+      <br>
+      <li>
+        <details>
+          <summary>
+            <b style="font-size: large;">
+              External Affairs Team
+            </b>
+          </summary>
+          <p style="text-align: justify;">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </details>
+      </li>
+      <br>
 
-      <h4>Media Team</h4>
-      </br>
-    
-      <h4>Social Media Team</h4>
-      </br>
-    
-      <h4>Wall Team</h4>
-     </br> 
+      <li>
+        <details>
+            <summary>
+              <b style="font-size: large;">
+                Media Team
+              </b>
+          </summary>
+          <p style="text-align: justify;">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </details>
+      </li>
+      <br>
+
+      <li>
+        <details>
+          <summary>
+            <b style="font-size: large;">
+              Social Media Team
+            </b>
+            
+          </summary>
+          <p style="text-align: justify;">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </details>
+      </li>
+      <br>
+
+      <li>
+        <details>
+          <summary>
+            <b style="font-size: large;">
+              Wall Team
+            </b>
+          </summary>
+          <p style="text-align: justify;">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </details>
+      </li>
+      <br>
+      <li>
+        <details>
+          <summary>
+            <b style="font-size: large;">
+              YouTube Management Team
+            </b>
+          </summary>
+          <p style="text-align: justify;">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </details>
+      </li>
+      <br>
+      
+     </ul>
     </div>
     
     <div class="w3-col l6 w3-padding-large">
