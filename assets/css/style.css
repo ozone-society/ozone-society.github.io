@@ -20,6 +20,12 @@
   border-radius: 10%;
 
 }
+.social a{
+  text-decoration: none;
+}
+.social-links a{
+  text-decoration: none;
+}
 
 #preloader:before {
   content: "";
